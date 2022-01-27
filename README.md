@@ -3,6 +3,11 @@
 # Stationary bootstrap method
 
 ![license](https://img.shields.io/badge/license-GPLv3-brightgreen)
+
+## Note added on Jan. 27 2022
+We released a Python package [**stresampling**](https://github.com/YoshihikoNishikawa/stresampling) for statistical analysis using the stationary bootstrap method. The package is flexible and applicable to user-defined physical quantities. Please see the [repository](https://github.com/YoshihikoNishikawa/stresampling).
+
+
 ## The aim of the code
 The stationary bootstrap ([Politis, D. N. and Romano, J. P.](https://www.jstor.org/stable/2290993)) 
 is a bootstrap method for estimating statistical properties of samples with time correlation.

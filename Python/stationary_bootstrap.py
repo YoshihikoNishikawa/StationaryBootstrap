@@ -249,8 +249,7 @@ def lazy_Bootstrap_t(list_observable, alpha):
     up_index = (int)(number_bsamples * (1.0 - gap))
     low_t = list_t[low_index]
     up_t = list_t[up_index]
-
-    return mean - sigma * low_t, mean - sigma * up_t
+    return mean + sigma * low_t, mean + sigma * up_t
 
 
 def print_item(truncate_length, p_opt, list_observable, alpha):
